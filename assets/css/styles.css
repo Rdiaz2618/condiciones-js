@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.borde,
+.contador,
+.password {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.btn-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+/*Borde*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+body img {
+  width: 500px;
+  height: 600px;
+}
+
+a .inicio-btns {
+  justify-content: center;
+}
+
+/*STICKERS*/
+
+.content-img {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.pinguinos {
+  height: 200px;
+  width: 150px;
+}
+
+/*PASSWORD*/
+
+.content-password{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
